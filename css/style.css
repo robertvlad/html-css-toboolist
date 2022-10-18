@@ -1,3 +1,16 @@
 *{
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
+
+}
+
+.bar{
+    height: 80px;
+    padding: 10px;
+}
+
+h1{
+    display: inline-block;
+    font-size: 40px;
 }
