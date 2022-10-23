@@ -32,7 +32,7 @@ header{
 }
 
 
-/* Main */
+/* Main menu */
 
 .container{
     width: 1100px;
@@ -43,12 +43,12 @@ header{
 
 .button{
     padding: 5px 10px;
-    border: none;
     border-radius: 5px;
 }
 
 .button_blue{
     background-color: rgb(48, 48, 239);
+    border: 1px solid rgb(48, 48, 239);
     color: rgb(255, 255, 255);
 
 }
@@ -64,4 +64,72 @@ header{
     height: 70px;
     padding: 20px 50px;
     border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+
+/* Main list */
+
+.bottom_tasks{
+    padding: 20px 50px;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+h3::before{
+    content: "\25BE";
+}
+
+.circle::before{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+    text-align: center;
+    padding: 3px;
+
+}
+
+.circle_red::before{
+    content: "\2573";
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.circle_green::before{
+    content: "\2713";
+    color: rgb(0, 128, 0);
+    border: 2px solid rgb(0, 128, 0);
+}
+
+.tag{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.tag_type_1{
+    background-color: rgb(48, 48, 239);
+}
+
+.tag_type_2{
+    background-color: rgb(111, 27, 111);
+}
+
+.tag_type_3{
+    background-color: rgb(0, 128, 0);
+}
+
+.tag_type_4{
+    background-color: rgb(255, 165, 0);
+}
+.tag_type_5{
+    background-color: rgb(242, 88, 242);
+}
+.tag_type_6{
+    background-color: rgb(112, 175, 16)
 }
